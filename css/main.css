@@ -1,0 +1,168 @@
+body {
+    margin: 60px auto;
+    width: 90%;
+    
+}
+nav ul, footer ul {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+}
+nav ul li, footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+a {
+    text-decoration: none;
+    color: #999;
+}
+a:hover {
+    text-decoration: underline;
+}
+h1 {
+    font-size: 3em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+
+h3{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+h4{
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+p {
+    font-size: 1.0em;
+    line-height: 1.4em;
+    color: #333;
+    margin-top: 0px
+}
+
+footer {
+    border-top: 1px solid #d5d5d5;
+    font-size: .8em;
+}
+
+ul.posts { 
+    margin: 20px auto 40px; 
+    font-size: 1.5em;
+}
+
+ul.posts li {
+    list-style: none;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.resize {
+    width: 300px;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+/* Create three unequal columns that floats next to each other */
+.column {
+    float: left;
+    padding: 10px;
+}
+
+.two_column {
+    float: left;
+    padding: 10px;
+
+
+}
+
+.two_column.right {
+    width: 45%;
+    position: relative;
+    left: -50%; /* or right 50% */
+    text-align: left;
+}
+
+.two_column.left {
+    width: 45%;
+    position: relative;
+    right: -50%; /* or right 50% */
+    text-align: left;
+}
+
+/* Left and right column */
+.column.side {
+    width: 25%;
+}
+
+/* Middle column */
+.column.middle {
+    width: 65%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .column.side, .column.middle {
+        width: 100%;
+    }
+}
+
+
+
+
+
+#container {
+    text-align: center;
+}
+figure {
+    display: inline-block;
+}
+figcaption {
+    margin: 10px 0 0 0;
+    font-variant: small-caps;
+    font-family: Arial;
+    font-weight: bold;
+    color: #bb3333;
+}
+figure {
+    padding: 5px;
+}
+img:hover {
+    transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+img {
+    transition: transform 0.2s;
+    -webkit-transition: -webkit-transform 0.2s;
+    -moz-transition: -moz-transform 0.2s;
+    -o-transition: -o-transform 0.2s;
+}
+
+
+iframe {
+margin-right: auto;
+margin-left: auto;
+display:block;
+padding: 10px;
+}
